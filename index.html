@@ -6,14 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="estilos.css">
-ad>
-    <title>Login</title>
+
+    <title>Login</title><br>
+    
 </head>
 <body>
+    <div class="caja">
     <header>
         <div>
             <h1>Login</h1>
         </div>
     </header>
+    <main>
+        <form>
+            <label for="correoelectronico">Email</label><br>
+            <input type="email" id="correoelectronico" class="input-padron"  required placeholder="email@dominio.com"><br>
+            <br>
+            <label for="password">Password</label><br>
+            
+            <input type="text" id="password" class="input-padron" required placeholder="XXXXXXXX"><br>
+            <br>
+
+            <fieldset>
+                <legend>Género</legend>
+                <select>
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                    <option>Prefiero no responder</option>
+                </select>
+            </fieldset>
+<br>
+            <label class="checkbox"><input type="checkbox" checked>Acepto los términos</label><br>
+            <br>
+            <input type="submit" value="Ingresar" class="enviar"><br>
+    </main>
+</div>
 </body>
 </html>
